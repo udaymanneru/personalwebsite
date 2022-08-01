@@ -1,0 +1,114 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    padding: 70px;
+    font-family: Helvetica;
+}
+
+#whoamI {
+    color: white;
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(239, 134, 119);
+    margin-bottom: 75px;
+    /* border-radius: 2%; */
+    border: solid rgb(124, 122, 122) 5px;
+    /* align-items: center; */
+}
+
+.links {
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+.links:hover {
+    background-color: gray;
+    opacity: 80%;
+}
+
+a {
+    width: 10%;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.generic-wrapper{
+    border-radius: 25px;
+    border: black solid 5px;
+    padding: 40px;
+    margin-bottom: 20px;
+}
+
+#about-me{
+    background-color: rgb(130, 182, 217);
+    /* background: linear-gradient(to bottom, rgb(239, 134, 119), rgb(130, 182, 217)); */
+    
+}
+
+.text-heading{
+    font-size: 40px;
+}
+
+#about-me-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#about-me-img{
+    width: 40%;
+}
+
+#ladder-img{
+    width: 20%;
+}
+
+.paragraph-text{
+    font-size: 30px;
+    width: 50%;
+}
+
+#languages{
+    padding: 40px;
+}
+
+#experience {
+    background-color: rgb(160, 231, 125);
+}
+
+li {
+    font-size: 30px;
+}
+
+#experience-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#positions{
+    width: 60%;
+}
+
+#languages {
+    background-color: blanchedalmond;
+
+}
+
+#languages-wrapper{
+    text-align: center;
+    background-image: url("https://thumbs.gfycat.com/DelayedEmotionalAustrianpinscher-size_restricted.gif");
+    padding-bottom: 90px;
+}
+
+.language-logos {
+    display: inline-block;
+    width: 250px;
+    margin-right: 75px;
+}
